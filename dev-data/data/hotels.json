@@ -1,0 +1,72 @@
+[
+    {
+      "ID": 1,
+      "name": "Khách Sạn Golden Palace",
+      "address": "123 Đường B, Quận C, TP. Hồ Chí Minh",
+      "starLevel": 5,
+      "description": "Khách sạn sang trọng với dịch vụ đẳng cấp quốc tế và tiện nghi hiện đại."
+    },
+    {
+      "ID": 2,
+      "name": "Khách Sạn Lotus Garden",
+      "address": "456 Đường E, Quận F, Hà Nội",
+      "starLevel": 4,
+      "description": "Khách sạn có view đẹp, gần trung tâm thành phố và hồ Hoàn Kiếm."
+    },
+    {
+      "ID": 3,
+      "name": "Khách Sạn Ocean View",
+      "address": "789 Đường H, Quận I, Đà Nẵng",
+      "starLevel": 4,
+      "description": "Khách sạn gần bãi biển Mỹ Khê, thuận tiện cho du lịch và giải trí."
+    },
+    {
+      "ID": 4,
+      "name": "Khách Sạn Coral Bay",
+      "address": "101 Đường K, Quận L, Nha Trang",
+      "starLevel": 5,
+      "description": "Khách sạn sang trọng với nhiều tiện nghi và dịch vụ tốt, có tầm nhìn ra biển."
+    },
+    {
+      "ID": 5,
+      "name": "Khách Sạn Riverside Retreat",
+      "address": "202 Đường N, Quận O, Huế",
+      "starLevel": 3,
+      "description": "Khách sạn giá rẻ nằm bên dòng sông Hương, thuận tiện cho du lịch."
+    },
+    {
+      "ID": 6,
+      "name": "Khách Sạn Pearl City",
+      "address": "303 Đường Q, Quận R, Hải Phòng",
+      "starLevel": 4,
+      "description": "Khách sạn nằm gần khu trung tâm mua sắm và giải trí, với nhiều tiện nghi."
+    },
+    {
+      "ID": 7,
+      "name": "Khách Sạn Green Valley",
+      "address": "404 Đường S, Quận T, Đà Lạt",
+      "starLevel": 4,
+      "description": "Khách sạn nằm trong thung lũng xanh, gần hồ Xuân Hương và vườn hoa Đà Lạt."
+    },
+    {
+      "ID": 8,
+      "name": "Khách Sạn Blue Lagoon",
+      "address": "505 Đường U, Quận V, Phú Quốc",
+      "starLevel": 5,
+      "description": "Khách sạn cao cấp nằm bên bãi biển đẹp, có các hoạt động giải trí biển."
+    },
+    {
+      "ID": 9,
+      "name": "Khách Sạn Imperial Sky",
+      "address": "606 Đường W, Quận X, Vũng Tàu",
+      "starLevel": 5,
+      "description": "Khách sạn sang trọng với tầm nhìn toàn cảnh biển, gần các điểm tham quan nổi tiếng."
+    },
+    {
+      "ID": 10,
+      "name": "Khách Sạn Mountain View",
+      "address": "707 Đường Y, Quận Z, Sapa",
+      "starLevel": 3,
+      "description": "Khách sạn nằm giữa núi đồi, thích hợp cho du lịch nghỉ dưỡng và leo núi."
+    }
+]

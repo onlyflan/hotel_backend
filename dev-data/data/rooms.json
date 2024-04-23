@@ -1,0 +1,83 @@
+[
+    {
+      "ID": "R001",
+      "name": "Phòng Deluxe",
+      "type": "Deluxe",
+      "price": 1500000.00,
+      "description": "Phòng Deluxe rộng rãi với view thành phố.",
+      "hotelID": 1
+    },
+    {
+      "ID": "R002",
+      "name": "Phòng Standard",
+      "type": "Standard",
+      "price": 1000000.00,
+      "description": "Phòng tiện nghi với giá cả phải chăng.",
+      "hotelID": 1
+    },
+    {
+      "ID": "R003",
+      "name": "Phòng Executive Suite",
+      "type": "Suite",
+      "price": 3000000.00,
+      "description": "Phòng Suite cao cấp với view biển và tiện nghi sang trọng.",
+      "hotelID": 2
+    },
+    {
+      "ID": "R004",
+      "name": "Phòng Family",
+      "type": "Family",
+      "price": 2000000.00,
+      "description": "Phòng rộng rãi dành cho gia đình, có hai giường đôi.",
+      "hotelID": 2
+    },
+    {
+      "ID": "R005",
+      "name": "Phòng Ocean View",
+      "type": "Deluxe",
+      "price": 2500000.00,
+      "description": "Phòng với tầm nhìn hướng biển tuyệt đẹp, tiện nghi hiện đại.",
+      "hotelID": 3
+    },
+    {
+      "ID": "R006",
+      "name": "Phòng Mountain Retreat",
+      "type": "Suite",
+      "price": 1800000.00,
+      "description": "Phòng Suite với view núi non và không gian yên tĩnh.",
+      "hotelID": 4
+    },
+    {
+      "ID": "R007",
+      "name": "Phòng Economy",
+      "type": "Economy",
+      "price": 800000.00,
+      "description": "Phòng giá rẻ với các tiện nghi cơ bản.",
+      "hotelID": 5
+    },
+    {
+      "ID": "R008",
+      "name": "Phòng City View",
+      "type": "Standard",
+      "price": 1200000.00,
+      "description": "Phòng có view thành phố, tiện nghi hiện đại.",
+      "hotelID": 6
+    },
+    {
+      "ID": "R009",
+      "name": "Phòng Sky Suite",
+      "type": "Suite",
+      "price": 3500000.00,
+      "description": "Phòng Suite cao cấp với view toàn cảnh thành phố từ trên cao.",
+      "hotelID": 7
+    },
+    {
+      "ID": "R010",
+      "name": "Phòng Garden Deluxe",
+      "type": "Deluxe",
+      "price": 1700000.00,
+      "description": "Phòng Deluxe với tầm nhìn khu vườn xanh mát.",
+      "hotelID": 8
+    }
+]
+

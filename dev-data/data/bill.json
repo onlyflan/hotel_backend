@@ -1,0 +1,57 @@
+[
+    {
+      "ID": 1,
+      "paymentDate": "2024-04-16",
+      "amount": 2500000.00,
+      "paymentType": "Thẻ tín dụng",
+      "note": "Thanh toán cho đặt phòng và dịch vụ.",
+      "userID": "66267c96e95b7701e0913ecf",
+      "bookingID": "66268aef3f573f4300365f7a",
+      "name": "Hóa đơn đặt phòng",
+      "description": "Hóa đơn cho việc đặt phòng trong khách sạn."
+    },
+    {
+      "ID": 2,
+      "paymentDate": "2024-04-17",
+      "amount": 2000000.00,
+      "paymentType": "Tiền mặt",
+      "note": "Thanh toán cho dịch vụ và phòng.",
+      "userID": "66267c96e95b7701e0913ece",
+      "bookingID": "66269af7ca060302cc2dbcf7",
+      "name": "Hóa đơn dịch vụ và phòng",
+      "description": "Hóa đơn cho dịch vụ và phòng đã sử dụng."
+    },
+    {
+      "ID": 3,
+      "paymentDate": "2024-04-18",
+      "amount": 1800000.00,
+      "paymentType": "Thẻ ghi nợ",
+      "note": "Thanh toán dịch vụ phòng và tiện ích khác.",
+      "userID": "66267c31e95b7701e0913ebf",
+      "bookingID": "66269af7ca060302cc2dbcf8",
+      "name": "Hóa đơn dịch vụ",
+      "description": "Hóa đơn cho các dịch vụ đã sử dụng trong khách sạn."
+    },
+    {
+      "ID": 4,
+      "paymentDate": "2024-04-19",
+      "amount": 3500000.00,
+      "paymentType": "Chuyển khoản",
+      "note": "Thanh toán dịch vụ spa và phòng nghỉ.",
+      "userID": "66267c96e95b7701e0913ec1",
+      "bookingID": "66269af7ca060302cc2dbcfa",
+      "name": "Hóa đơn dịch vụ và phòng",
+      "description": "Hóa đơn cho dịch vụ spa và phòng nghỉ."
+    },
+    {
+      "ID": 5,
+      "paymentDate": "2024-04-20",
+      "amount": 3200000.00,
+      "paymentType": "Thẻ tín dụng",
+      "note": "Thanh toán cho các dịch vụ và phòng nghỉ.",
+      "userID": "66267c96e95b7701e0913ec3",
+      "bookingID": "66269af7ca060302cc2dbcfb",
+      "name": "Hóa đơn dịch vụ và phòng",
+      "description": "Hóa đơn cho dịch vụ và phòng nghỉ trong khách sạn."
+    }
+]

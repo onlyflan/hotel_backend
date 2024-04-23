@@ -1,0 +1,63 @@
+[
+    {
+      "ID": 1,
+      "fullName": "Nguyễn Văn A",
+      "address": "123 Đường B, Quận C, TP. Hồ Chí Minh",
+      "note": "Khách hàng thân thiết, thường xuyên đặt phòng cao cấp"
+    },
+    {
+      "ID": 2,
+      "fullName": "Trần Thị D",
+      "address": "456 Đường E, Quận F, Hà Nội",
+      "note": "Yêu cầu giao hàng nhanh trong các chuyến du lịch"
+    },
+    {
+      "ID": 3,
+      "fullName": "Lê Hoàng C",
+      "address": "789 Đường G, Quận H, Đà Nẵng",
+      "note": "Thích các phòng có view biển và tiện nghi hiện đại"
+    },
+    {
+      "ID": 4,
+      "fullName": "Phạm Thị N",
+      "address": "101 Đường K, Quận L, Nha Trang",
+      "note": "Thường đi du lịch cùng gia đình, cần nhiều phòng"
+    },
+    {
+      "ID": 5,
+      "fullName": "Vũ Minh T",
+      "address": "202 Đường M, Quận N, Huế",
+      "note": "Quan tâm đến dịch vụ spa và thể dục"
+    },
+    {
+      "ID": 6,
+      "fullName": "Đỗ Ngọc H",
+      "address": "303 Đường O, Quận P, Hải Phòng",
+      "note": "Quan tâm đến các tour du lịch địa phương"
+    },
+    {
+      "ID": 7,
+      "fullName": "Hoàng Lan M",
+      "address": "404 Đường Q, Quận R, Đà Lạt",
+      "note": "Thích khách sạn gần khu trung tâm mua sắm và giải trí"
+    },
+    {
+      "ID": 8,
+      "fullName": "Bùi Tiến V",
+      "address": "505 Đường S, Quận T, Phú Quốc",
+      "note": "Yêu cầu dịch vụ đưa đón sân bay"
+    },
+    {
+      "ID": 9,
+      "fullName": "Ngô Anh P",
+      "address": "606 Đường U, Quận V, Vũng Tàu",
+      "note": "Thích các phòng cao cấp và dịch vụ VIP"
+    },
+    {
+      "ID": 10,
+      "fullName": "Lý Thị X",
+      "address": "707 Đường W, Quận Y, Sapa",
+      "note": "Thường xuyên đi du lịch một mình, thích các phòng yên tĩnh"
+    }
+]
+

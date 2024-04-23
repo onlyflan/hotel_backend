@@ -1,0 +1,72 @@
+[
+    {
+      "ID": 1,
+      "name": "Dịch vụ giặt ủi",
+      "unity": "lần",
+      "price": 150000.00,
+      "description": "Dịch vụ giặt ủi nhanh chóng và chất lượng cao."
+    },
+    {
+      "ID": 2,
+      "name": "Dịch vụ massage",
+      "unity": "giờ",
+      "price": 500000.00,
+      "description": "Dịch vụ massage thư giãn, giúp giảm căng thẳng và mệt mỏi."
+    },
+    {
+      "ID": 3,
+      "name": "Dịch vụ đưa đón sân bay",
+      "unity": "chuyến",
+      "price": 350000.00,
+      "description": "Dịch vụ đưa đón từ sân bay về khách sạn và ngược lại."
+    },
+    {
+      "ID": 4,
+      "name": "Dịch vụ ăn uống tại phòng",
+      "unity": "bữa",
+      "price": 250000.00,
+      "description": "Dịch vụ cung cấp bữa ăn tại phòng theo yêu cầu khách hàng."
+    },
+    {
+      "ID": 5,
+      "name": "Dịch vụ dọn phòng",
+      "unity": "lần",
+      "price": 100000.00,
+      "description": "Dịch vụ dọn dẹp phòng hàng ngày, giữ phòng luôn sạch sẽ."
+    },
+    {
+      "ID": 6,
+      "name": "Dịch vụ thuê xe",
+      "unity": "ngày",
+      "price": 700000.00,
+      "description": "Dịch vụ thuê xe hơi để di chuyển trong khu vực thành phố."
+    },
+    {
+      "ID": 7,
+      "name": "Dịch vụ spa",
+      "unity": "lần",
+      "price": 800000.00,
+      "description": "Dịch vụ spa cao cấp với nhiều lựa chọn như xông hơi, xoa bóp, và liệu trình làm đẹp."
+    },
+    {
+      "ID": 8,
+      "name": "Dịch vụ giặt khô",
+      "unity": "lần",
+      "price": 200000.00,
+      "description": "Dịch vụ giặt khô chuyên nghiệp, giữ quần áo luôn mới mẻ."
+    },
+    {
+      "ID": 9,
+      "name": "Dịch vụ chăm sóc trẻ em",
+      "unity": "giờ",
+      "price": 100000.00,
+      "description": "Dịch vụ chăm sóc trẻ em, giúp phụ huynh có thời gian thư giãn."
+    },
+    {
+      "ID": 10,
+      "name": "Dịch vụ trông giữ hành lý",
+      "unity": "lần",
+      "price": 50000.00,
+      "description": "Dịch vụ trông giữ hành lý an toàn, giúp khách hàng an tâm khi du lịch."
+    }
+]

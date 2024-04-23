@@ -1,0 +1,82 @@
+[
+    {
+      "ID": 103,
+      "checkin": "2024-04-19",
+      "checkout": "2024-04-23",
+      "price": 2500000.00,
+      "isCheckin": 1,
+      "selloff": 0.05,
+      "tblBookingID": 203,
+      "tblRoomID": "R003"
+    },
+    {
+      "ID": 104,
+      "checkin": "2024-04-17",
+      "checkout": "2024-04-21",
+      "price": 1200000.00,
+      "isCheckin": 0,
+      "selloff": 0.12,
+      "tblBookingID": 204,
+      "tblRoomID": "R004"
+    },
+    {
+      "ID": 105,
+      "checkin": "2024-04-21",
+      "checkout": "2024-04-25",
+      "price": 1800000.00,
+      "isCheckin": 1,
+      "selloff": 0.08,
+      "tblBookingID": 205,
+      "tblRoomID": "R005"
+    },
+    {
+      "ID": 106,
+      "checkin": "2024-04-20",
+      "checkout": "2024-04-24",
+      "price": 2200000.00,
+      "isCheckin": 0,
+      "selloff": 0.07,
+      "tblBookingID": 206,
+      "tblRoomID": "R006"
+    },
+    {
+      "ID": 107,
+      "checkin": "2024-04-16",
+      "checkout": "2024-04-19",
+      "price": 900000.00,
+      "isCheckin": 1,
+      "selloff": 0.10,
+      "tblBookingID": 207,
+      "tblRoomID": "R007"
+    },
+    {
+      "ID": 108,
+      "checkin": "2024-04-18",
+      "checkout": "2024-04-20",
+      "price": 1100000.00,
+      "isCheckin": 0,
+      "selloff": 0.13,
+      "tblBookingID": 208,
+      "tblRoomID": "R008"
+    },
+    {
+      "ID": 109,
+      "checkin": "2024-04-21",
+      "checkout": "2024-04-23",
+      "price": 3200000.00,
+      "isCheckin": 1,
+      "selloff": 0.05,
+      "tblBookingID": 209,
+      "tblRoomID": "R009"
+    },
+    {
+      "ID": 110,
+      "checkin": "2024-04-16",
+      "checkout": "2024-04-18",
+      "price": 1700000.00,
+      "isCheckin": 0,
+      "selloff": 0.15,
+      "tblBookingID": 210,
+      "tblRoomID": "R010"
+    }
+]
