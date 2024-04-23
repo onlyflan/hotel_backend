@@ -9,6 +9,7 @@ const clientRouter = require('./routes/clientRoutes');
 const serviceRouter = require('./routes/serviceRoutes');
 const billRouter = require('./routes/billRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
+const home = require('./routes/home');
 
 const app = express();
 
@@ -32,7 +33,7 @@ app.use((req, res, next) => {
 });
 
 // 2) ROUTES
-
+app.use('/home', home);
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/hotels', hotelRouter);
 app.use('/api/v1/users', userRouter);
