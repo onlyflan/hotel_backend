@@ -21,7 +21,6 @@ const roomSchema = new mongoose.Schema({
   },
   imageCover: {
     type: String,
-    // required: [true, 'A room must have a cover image'],
   },
   images: [String],
 });

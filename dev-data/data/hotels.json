@@ -4,69 +4,129 @@
       "name": "Khách Sạn Golden Palace",
       "address": "123 Đường B, Quận C, TP. Hồ Chí Minh",
       "starLevel": 5,
-      "description": "Khách sạn sang trọng với dịch vụ đẳng cấp quốc tế và tiện nghi hiện đại."
+      "description": "Khách sạn sang trọng với dịch vụ đẳng cấp quốc tế và tiện nghi hiện đại.",
+      "imageCover": "https://file4.batdongsan.com.vn/2021/08/23/20210823123038-760a.jpg",
+      "images": [
+        "https://file4.batdongsan.com.vn/2021/08/23/20210823123817-f70d.jpg",
+        "https://file4.batdongsan.com.vn/2021/08/23/20210823123811-6948.jpg",
+        "https://file4.batdongsan.com.vn/2016/07/30/eGYiO6Tq/20160730170730-6b55.jpg"
+      ] 
     },
     {
       "ID": 2,
       "name": "Khách Sạn Lotus Garden",
-      "address": "456 Đường E, Quận F, Hà Nội",
+      "address": "456 Đường E, Quận F, TP. Hồ Chí Minh",
       "starLevel": 4,
-      "description": "Khách sạn có view đẹp, gần trung tâm thành phố và hồ Hoàn Kiếm."
+      "description": "Khách sạn có view đẹp, gần trung tâm thành phố và hồ Hoàn Kiếm.",
+      "imageCover": "https://photo.rever.vn/v3/get/x72nifr7Rw73Ra_a+fmeyl8CrxupGtwCFFStb8uC76M=/1200x800/image.jpg",
+      "images": [
+        "https://photo.rever.vn/v3/get/P4N5BiISitybKFBboI17swMIlL8p5sM5MPn3_yuG2YE=/1200x800/image.jpg",
+        "https://photo.rever.vn/v3/get/qcaPayGPjerkZ3VvyCzm_qQLu2UaWT4bP8pbODY1sic=/1200x800/image.jpg",
+        "https://photo.rever.vn/v3/get/B1OGqrEGwx2f27CAbLv1gGPNzCIpeQVkuewxpC3hUR0=/1200x800/image.jpg"
+      ] 
     },
     {
       "ID": 3,
       "name": "Khách Sạn Ocean View",
       "address": "789 Đường H, Quận I, Đà Nẵng",
       "starLevel": 4,
-      "description": "Khách sạn gần bãi biển Mỹ Khê, thuận tiện cho du lịch và giải trí."
+      "description": "Khách sạn gần bãi biển Mỹ Khê, thuận tiện cho du lịch và giải trí.",
+      "imageCover": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/82/d0/ocean-view-house.jpg?w=1200&h=-1&s=1",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/82/d0/ocean-view-house.jpg?w=1200&h=-1&s=1",
+        "https://media-cdn.tripadvisor.com/media/oyster-panos/sources/pool--v456313.tiles/wide_700.jpg",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/28/78/8b/73/ocean-view-house.jpg?w=1200&h=-1&s=1"
+      ] 
     },
     {
       "ID": 4,
       "name": "Khách Sạn Coral Bay",
-      "address": "101 Đường K, Quận L, Nha Trang",
+      "address": "101 Đường K, Quận L, Hà Nội",
       "starLevel": 5,
-      "description": "Khách sạn sang trọng với nhiều tiện nghi và dịch vụ tốt, có tầm nhìn ra biển."
+      "description": "Khách sạn sang trọng với nhiều tiện nghi và dịch vụ tốt, có tầm nhìn ra biển.",
+      "imageCover": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/167654193.jpg?k=53735060b71c61771f03c71ae7299b1546f596992c48f9f5d4f3b05d81a32476&o=&hp=1",
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/155242106.jpg?k=eabdf0f6b202d6e24af027acc0937e3dd3520b507ea6c2c9d21677d8d9731f94&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/154931187.jpg?k=11c4d11cc2588a597fddd2ea8549be23d4fc7262cdb656bdeaa544b0d89f2750&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/167654222.jpg?k=6c87d96ae3fb34c5e9cdd125336085e207dfb9edd1ab39a2a1970ba6688afbb3&o=&hp=1"
+      ] 
     },
     {
       "ID": 5,
       "name": "Khách Sạn Riverside Retreat",
-      "address": "202 Đường N, Quận O, Huế",
+      "address": "202 Đường N, Quận O, TP. Hồ Chí Minh",
       "starLevel": 3,
-      "description": "Khách sạn giá rẻ nằm bên dòng sông Hương, thuận tiện cho du lịch."
+      "description": "Khách sạn giá rẻ nằm bên dòng sông Hương, thuận tiện cho du lịch.",
+      "imageCover": "https://pix8.agoda.net/hotelImages/126/1269964/1269964_18031218090062718132.jpg?ca=6&ce=1&s=1024x768",
+      "images": [
+        "https://pix8.agoda.net/hotelImages/1269964/-1/779e3e38b5807ab4540545201bf7579c.jpg?ca=7&ce=1&s=1024x768",
+        "https://pix8.agoda.net/hotelImages/1269964/-1/f8690adb3f00746a36894758874924cf.jpg?ca=7&ce=1&s=1024x768",
+        "https://pix8.agoda.net/hotelImages/1269964/-1/11efa8b969756a65a9b0a03c08ff886c.jpg?ca=0&ce=1&s=1024x768"
+      ] 
     },
     {
       "ID": 6,
       "name": "Khách Sạn Pearl City",
-      "address": "303 Đường Q, Quận R, Hải Phòng",
+      "address": "303 Đường Q, Quận R, Đà Nẵng",
       "starLevel": 4,
-      "description": "Khách sạn nằm gần khu trung tâm mua sắm và giải trí, với nhiều tiện nghi."
+      "description": "Khách sạn nằm gần khu trung tâm mua sắm và giải trí, với nhiều tiện nghi.",
+      "imageCover": "https://pearl-city-hotel-nha-trang.hotelmix.vn/data/Photos/Big/1151/115164/115164683/Pearl-City-Hotel-Nha-Trang-Exterior.JPEG",
+      "images": [
+        "https://pearl-city-hotel-nha-trang.hotelmix.vn/data/Photos/Big/1151/115164/115164683/Pearl-City-Hotel-Nha-Trang-Exterior.JPEG",
+        "https://pix8.agoda.net/hotelImages/762/762754/762754_15072709340033060573.jpg?ca=5&ce=1&s=1024x768",
+        "https://pix8.agoda.net/hotelImages/762/762754/762754_15072709340033060573.jpg?ca=5&ce=1&s=1024x768"
+      ] 
     },
     {
       "ID": 7,
       "name": "Khách Sạn Green Valley",
-      "address": "404 Đường S, Quận T, Đà Lạt",
+      "address": "404 Đường S, Quận T, Hà Nội",
       "starLevel": 4,
-      "description": "Khách sạn nằm trong thung lũng xanh, gần hồ Xuân Hương và vườn hoa Đà Lạt."
+      "description": "Khách sạn nằm trong thung lũng xanh, gần hồ Xuân Hương và vườn hoa Đà Lạt.",
+      "imageCover": "https://pix10.agoda.net/hotelImages/255/255402/255402_17062113410053929832.jpg?ca=6&ce=1&s=414x232",
+      "images": [
+        "https://pix8.agoda.net/hotelImages/255/255402/255402_17062113460053930128.jpg?ca=6&ce=1&s=1024x768",
+        "https://pix8.agoda.net/hotelImages/255/255402/255402_17062113490053930258.jpg?ca=6&ce=1&s=1024x768",
+        "https://pix8.agoda.net/hotelImages/255/255402/255402_17062113520053930510.jpg?ca=6&ce=1&s=1024x768"
+      ] 
     },
     {
       "ID": 8,
       "name": "Khách Sạn Blue Lagoon",
-      "address": "505 Đường U, Quận V, Phú Quốc",
+      "address": "505 Đường U, Quận V, Hà Nội",
       "starLevel": 5,
-      "description": "Khách sạn cao cấp nằm bên bãi biển đẹp, có các hoạt động giải trí biển."
+      "description": "Khách sạn cao cấp nằm bên bãi biển đẹp, có các hoạt động giải trí biển.",
+      "imageCover": "https://cf.bstatic.com/xdata/images/hotel/max1280x900/406666132.jpg?k=bcd2bf167c7011c4d84203031d9fdb044a415543b345c707377261da40e76538&o=&hp=1",
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/345896731.jpg?k=194a5c5ab3e62be708ab11e72cf788f373f08283dfee9c5604e086f7aa2a077a&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/345896731.jpg?k=194a5c5ab3e62be708ab11e72cf788f373f08283dfee9c5604e086f7aa2a077a&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/269466547.jpg?k=59ef7d1aa199cad085d8b082d5f154c057b7d916434c01bbe89d5d855bbef19c&o=&hp=1"
+      ] 
     },
     {
       "ID": 9,
       "name": "Khách Sạn Imperial Sky",
-      "address": "606 Đường W, Quận X, Vũng Tàu",
+      "address": "606 Đường W, Quận X, Đà Nẵng",
       "starLevel": 5,
-      "description": "Khách sạn sang trọng với tầm nhìn toàn cảnh biển, gần các điểm tham quan nổi tiếng."
+      "description": "Khách sạn sang trọng với tầm nhìn toàn cảnh biển, gần các điểm tham quan nổi tiếng.",
+      "imageCover": "https://imperiaskygardens.com/wp-content/uploads/2019/06/m%E1%BB%9Bi-800x600.jpg",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/aa/62/86/the-sky-imperial-shahi.jpg?w=1200&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/aa/62/41/the-sky-imperial-shahi.jpg?w=1200&h=-1&s=1",
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/aa/62/41/the-sky-imperial-shahi.jpg?w=1200&h=-1&s=1"
+      ] 
     },
     {
       "ID": 10,
       "name": "Khách Sạn Mountain View",
-      "address": "707 Đường Y, Quận Z, Sapa",
+      "address": "707 Đường Y, Quận Z, Đà Nẵng",
       "starLevel": 3,
-      "description": "Khách sạn nằm giữa núi đồi, thích hợp cho du lịch nghỉ dưỡng và leo núi."
+      "description": "Khách sạn nằm giữa núi đồi, thích hợp cho du lịch nghỉ dưỡng và leo núi.",
+      "imageCover": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/478796675.jpg?k=df0a0ec20367127197a1294d68f0dbe1611436bdb39b8d94a9a824c4d9005de3&o=&hp=1",
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/466259415.jpg?k=770440d32a25a5fe9fd81d0f07ba298c5b19dd249791dd151c2b4d95845b5cdc&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/347998321.jpg?k=392cad91cd891668bac560d2f3acef1c0c1099e3f10fba02048cd07f323f7c3d&o=&hp=1",
+        "https://cf.bstatic.com/xdata/images/hotel/max1280x900/357637162.jpg?k=9bd4f675a6ff9b1edd2a5b0030d8dd412e0df061d34c3b79c818903d8a13c0cc&o=&hp=1"
+      ] 
     }
 ]
