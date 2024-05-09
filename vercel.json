@@ -11,8 +11,5 @@
       "src": "/(.*)",
       "dest": "app.js"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "mongodb+srv://soi999:Quy123456@cluster0.ehrhdwc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-  }
+  ]
 }
