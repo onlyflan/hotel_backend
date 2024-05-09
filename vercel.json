@@ -9,7 +9,10 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.js"
+      "dest": "/"
     }
-  ]
+  ],
+  "env": {
+    "MONGODB_URI": "mongodb+srv://soi999:Quy123456@cluster0.ehrhdwc.mongodb.net/"
+  }
 }
