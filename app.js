@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 
 const tourRouter = require('./routes/tourRoutes');
 const userRouter = require('./routes/userRoutes');
@@ -14,6 +15,13 @@ const home = require('./routes/home');
 const app = express();
 
 // 1) MIDDLEWARES
+app.use(cors());
+app.use(
+  cors({
+    origin: 'https://hotel-web-app-six.vercel.app/',
+  }),
+);
+app.options('*', cors());
 console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev')); // logs HTTP requests details to the console in a nice and readable format
