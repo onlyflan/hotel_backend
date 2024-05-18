@@ -13,21 +13,14 @@ const packageSchema = new mongoose.Schema({
   },
   description: {
     type: String,
-    trim: true,
-    require: [true, 'A package must have a description'],
-  },
-  content: {
-    type: String,
+    required: [true, 'A package must have a description'],
     trim: true,
   },
-  imageCover: {
-    type: String,
-    require: [true, 'A package must have a cover image'],
-  },
-  note: {
-    type: String,
-    trim: true,
-    require: [true, 'A package must have a note'],
+  discount: {
+    type: Number,
+    default: 0,
+    min: 0,
+    max: 100,
   },
 });
 

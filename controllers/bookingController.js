@@ -1,96 +1,75 @@
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const Tour = require('../models/tourModel');
+const User = require('../models/userModel');
 const Booking = require('../models/bookingModel');
+const catchAsync = require('../utils/catchAsync');
+const factory = require('./handlerFactory');
 
-// const tours = JSON.parse(
-//   fs.readFileSync(`${__dirname}/../dev-data/data/tours-simple.json`),
-// );
+exports.getCheckoutSession = catchAsync(async (req, res, next) => {
+  // 1) Get the currently booked tour
+  const tour = await Tour.findById(req.params.tourId);
+  // console.log(tour);
 
-exports.getAllBookings = async (req, res) => {
-  try {
-    const bookings = await Booking.find();
-    res.status(200).json({
-      status: 'success',
-      results: bookings.length,
-      data: { bookings },
-    });
-  } catch (err) {
-    res.status(404).json({
-      status: 'fail',
-      message: err,
-    });
-  }
-};
-
-exports.getBooking = async (req, res) => {
-  try {
-    const booking = await Booking.findById(req.params.id);
-    // Booking.findOne({ _id: req.params.id })
-    res.status(200).json({
-      status: 'success',
-      data: {
-        booking,
+  // 2) Create checkout session
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ['card'],
+    // success_url: `${req.protocol}://${req.get('host')}/my-tours/?tour=${
+    //   req.params.tourId
+    // }&user=${req.user.id}&price=${tour.price}`,
+    success_url: `${req.protocol}://${req.get('host')}/my-tours?alert=booking`,
+    cancel_url: `${req.protocol}://${req.get('host')}/tour/${tour.slug}`,
+    customer_email: req.user.email,
+    client_reference_id: req.params.tourId,
+    line_items: [
+      {
+        name: `${tour.name} Tour`,
+        description: tour.summary,
+        images: [
+          `${req.protocol}://${req.get('host')}/img/tours/${tour.imageCover}`,
+        ],
+        amount: tour.price * 100,
+        currency: 'usd',
+        quantity: 1,
       },
-    });
-  } catch (err) {
-    res.status(404).json({
-      status: 'fail',
-      message: err,
-    });
-  }
+    ],
+  });
+
+  // 3) Create session as response
+  res.status(200).json({
+    status: 'success',
+    session,
+  });
+});
+
+const createBookingCheckout = async (session) => {
+  const tour = session.client_reference_id;
+  const user = (await User.findOne({ email: session.customer_email })).id;
+  const price = session.display_items[0].amount / 100;
+  await Booking.create({ tour, user, price });
 };
 
-exports.createBooking = async (req, res) => {
+exports.webhookCheckout = (req, res, next) => {
+  const signature = req.headers['stripe-signature'];
+
+  let event;
   try {
-    // const newTour = new Booking({});
-    // newTour.save();
-
-    const newBooking = await Booking.create(req.body);
-
-    res.status(201).json({
-      status: 'success',
-      data: {
-        booking: newBooking,
-      },
-    });
+    event = stripe.webhooks.constructEvent(
+      req.body,
+      signature,
+      process.env.STRIPE_WEBHOOK_SECRET,
+    );
   } catch (err) {
-    res.status(400).json({
-      status: 'fail',
-      message: err,
-    });
+    return res.status(400).send(`Webhook error: ${err.message}`);
   }
+
+  if (event.type === 'checkout.session.completed')
+    createBookingCheckout(event.data.object);
+
+  res.status(200).json({ received: true });
 };
 
-exports.updateBooking = async (req, res) => {
-  // Booking.findByIdAndUpdate(id, {});
-  try {
-    const booking = await Booking.findByIdAndUpdate(req.params.id, req.body, {
-      new: true,
-      runValidators: true,
-    });
-    res.status(200).json({
-      status: 'success',
-      data: {
-        booking,
-      },
-    });
-  } catch (err) {
-    res.status(404).json({
-      status: 'fail',
-      message: err,
-    });
-  }
-};
-
-exports.deleteBooking = async (req, res) => {
-  try {
-    await Booking.findByIdAndDelete(req.params.id);
-    res.status(204).json({
-      status: 'success',
-      data: null,
-    });
-  } catch (err) {
-    res.status(404).json({
-      status: 'fail',
-      message: err,
-    });
-  }
-};
+exports.createBooking = factory.createOne(Booking);
+exports.getBooking = factory.getOne(Booking);
+exports.getAllBookings = factory.getAll(Booking);
+exports.updateBooking = factory.updateOne(Booking);
+exports.deleteBooking = factory.deleteOne(Booking);

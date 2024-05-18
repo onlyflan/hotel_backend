@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 const newsSchema = new mongoose.Schema({
   hotel: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'Hotel',
-    required: [true, 'News must be associated with a hotel'],
+    type: String,
+    required: [true, 'A news article must be linked to a hotel'],
+    trim: true,
   },
   title: {
     type: String,
@@ -14,6 +14,11 @@ const newsSchema = new mongoose.Schema({
   content: {
     type: String,
     required: [true, 'A news article must have content'],
+    trim: true,
+  },
+  date: {
+    type: Date,
+    required: [true, 'A news article must have a date'],
     trim: true,
   },
 });

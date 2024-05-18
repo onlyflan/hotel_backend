@@ -1,6 +1,6 @@
 [
   {
-    "hotel": "663ceede534e4a0061669ac1",
+    "hotel": "664853a2016dab00624c28c2",
     "name": "Phòng Deluxe",
     "type": "Deluxe",
     "price": 1500000,
@@ -13,7 +13,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac5",
+    "hotel": "664853a2016dab00624c28c4",
     "name": "Phòng Standard",
     "type": "Standard",
     "price": 1000000,
@@ -26,7 +26,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669aca",
+    "hotel": "664853a2016dab00624c28c5",
     "name": "Phòng Executive Suite",
     "type": "Suite",
     "price": 3000000,
@@ -39,7 +39,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac8",
+    "hotel": "664853a2016dab00624c28c0",
     "name": "Phòng Family",
     "type": "Family",
     "price": 2000000,
@@ -52,7 +52,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac4",
+    "hotel": "664853a2016dab00624c28c6",
     "name": "Phòng Ocean View",
     "type": "Deluxe",
     "price": 2500000,
@@ -65,7 +65,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac2",
+    "hotel": "664853a2016dab00624c28c3",
     "name": "Phòng Mountain Retreat",
     "type": "Suite",
     "price": 1800000,
@@ -78,7 +78,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac6",
+    "hotel": "664853a2016dab00624c28c1",
     "name": "Phòng Economy",
     "type": "Economy",
     "price": 800000,
@@ -91,7 +91,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac3",
+    "hotel": "664853a2016dab00624c28c9",
     "name": "Phòng City View",
     "type": "Standard",
     "price": 1200000,
@@ -104,7 +104,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac9",
+    "hotel": "664853a2016dab00624c28c7",
     "name": "Phòng Sky Suite",
     "type": "Suite",
     "price": 3500000,
@@ -117,7 +117,7 @@
     ] 
   },
   {
-    "hotel": "663ceede534e4a0061669ac7",
+    "hotel": "664853a2016dab00624c28c8",
     "name": "Phòng Garden Deluxe",
     "type": "Deluxe",
     "price": 1700000,

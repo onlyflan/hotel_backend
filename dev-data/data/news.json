@@ -1,37 +1,44 @@
 [
   {
-    "hotel": "663ceede534e4a0061669ac1",
+    "hotel": "Khách Sạn Ocean View",
     "title": "Khuyến mãi mùa hè",
-    "content": "Hãy đến và tận hưởng mùa hè tuyệt vời với chúng tôi! Giảm giá 20% cho tất cả các phòng từ ngày 1 tháng 7."
+    "content": "Hãy đến và tận hưởng mùa hè tuyệt vời với chúng tôi! Giảm giá 20% cho tất cả các phòng từ ngày 1 tháng 7.",
+    "date": "2024-07-01T09:30:00.000Z"
   },
   {
-    "hotel": "663ceede534e4a0061669ac5",
+    "hotel": "Khách Sạn Riverside Retreat",
     "title": "Lễ hội ẩm thực quốc tế",
-    "content": "Tham gia cùng chúng tôi trong lễ hội ẩm thực quốc tế từ ngày 15 đến 20 tháng 8."
+    "content": "Tham gia cùng chúng tôi trong lễ hội ẩm thực quốc tế từ ngày 15 đến 20 tháng 8.",
+    "date": "2024-08-15T12:00:00.000Z"
   },
   {
-    "hotel": "663ceede534e4a0061669aca",
+    "hotel": "Khách Sạn Pearl City",
     "title": "Gói nghỉ dưỡng gia đình",
-    "content": "Gói nghỉ dưỡng gia đình đặc biệt, bao gồm các hoạt động giải trí cho trẻ em."
+    "content": "Gói nghỉ dưỡng gia đình đặc biệt, bao gồm các hoạt động giải trí cho trẻ em.",
+    "date": "2024-06-01T15:45:00.000Z"
   },
   {
-    "hotel": "663ceede534e4a0061669ac8",
+    "hotel": "Khách Sạn Golden Palace",
     "title": "Ưu đãi đặc biệt cho hội nghị",
-    "content": "Đặt phòng cho hội nghị của bạn và nhận được ưu đãi đặc biệt."
+    "content": "Đặt phòng cho hội nghị của bạn và nhận được ưu đãi đặc biệt.",
+    "date": "2024-09-10T17:30:00.000Z"
   },
   {
-    "hotel": "663ceede534e4a0061669ac4",
+    "hotel": "Khách Sạn Green Valley",
     "title": "Chương trình nghệ thuật đêm",
-    "content": "Khám phá chương trình nghệ thuật đêm của chúng tôi vào mỗi thứ Sáu hàng tuần."
+    "content": "Khám phá chương trình nghệ thuật đêm của chúng tôi vào mỗi thứ Sáu hàng tuần.",
+    "date": "2024-05-17T20:00:00.000Z"
   },
   {
-    "hotel": "663ceede534e4a0061669ac2",
+    "hotel": "Khách Sạn Coral Bay",
     "title": "Gói spa cuối tuần",
-    "content": "Thư giãn và tái tạo năng lượng với gói spa cuối tuần của chúng tôi."
+    "content": "Thư giãn và tái tạo năng lượng với gói spa cuối tuần của chúng tôi.",
+    "date": "2024-07-20T18:30:00.000Z"
   },
   {
-    "hotel": "663ceede534e4a0061669ac6",
+    "hotel": "Khách Sạn Lotus Garden",
     "title": "Bữa tối lãng mạn",
-    "content": "Tận hưởng bữa tối lãng mạn bên bờ biển với người thương yêu của bạn."
+    "content": "Tận hưởng bữa tối lãng mạn bên bờ biển với người thương yêu của bạn.",
+    "date": "2024-08-25T19:15:00.000Z"
   }
 ]

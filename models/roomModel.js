@@ -1,6 +1,11 @@
 const mongoose = require('mongoose');
 
 const roomSchema = new mongoose.Schema({
+  hotel: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Hotel',
+    required: [true, 'A room must be linked to a hotel'],
+  },
   name: {
     type: String,
     required: [true, 'A room must have a name'],

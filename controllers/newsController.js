@@ -1,12 +1,14 @@
 const News = require('../models/newsModel');
 
-// const tours = JSON.parse(
-//   fs.readFileSync(`${__dirname}/../dev-data/data/tours-simple.json`),
-// );
-
 exports.getAllNews = async (req, res) => {
   try {
-    const newss = await News.find();
+    const position = parseInt(req.query.position, 10) || 1;
+    const limit = parseInt(req.query.limit, 10) || 1;
+
+    const skip = (position - 1) * limit;
+
+    const newss = await News.find().skip(skip).limit(limit);
+
     res.status(200).json({
       status: 'success',
       results: newss.length,
@@ -23,7 +25,6 @@ exports.getAllNews = async (req, res) => {
 exports.getNews = async (req, res) => {
   try {
     const news = await News.findById(req.params.id);
-    // News.findOne({ _id: req.params.id })
     res.status(200).json({
       status: 'success',
       data: {
@@ -40,11 +41,7 @@ exports.getNews = async (req, res) => {
 
 exports.createNews = async (req, res) => {
   try {
-    // const newTour = new News({});
-    // newTour.save();
-
     const newNews = await News.create(req.body);
-
     res.status(201).json({
       status: 'success',
       data: {
@@ -60,7 +57,6 @@ exports.createNews = async (req, res) => {
 };
 
 exports.updateNews = async (req, res) => {
-  // News.findByIdAndUpdate(id, {});
   try {
     const news = await News.findByIdAndUpdate(req.params.id, req.body, {
       new: true,
