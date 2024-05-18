@@ -2,7 +2,7 @@
     {
       "ID": 1,
       "name": "Khách Sạn Golden Palace",
-      "address": "123 Đường B, Quận C, TP. Hồ Chí Minh",
+      "address": "123 Đường B, Quận C, Sài Gòn",
       "starLevel": 5,
       "description": "Khách sạn sang trọng với dịch vụ đẳng cấp quốc tế và tiện nghi hiện đại.",
       "imageCover": "https://file4.batdongsan.com.vn/2021/08/23/20210823123038-760a.jpg",
@@ -15,7 +15,7 @@
     {
       "ID": 2,
       "name": "Khách Sạn Lotus Garden",
-      "address": "456 Đường E, Quận F, TP. Hồ Chí Minh",
+      "address": "456 Đường E, Quận F, Sài Gòn",
       "starLevel": 4,
       "description": "Khách sạn có view đẹp, gần trung tâm thành phố và hồ Hoàn Kiếm.",
       "imageCover": "https://photo.rever.vn/v3/get/x72nifr7Rw73Ra_a+fmeyl8CrxupGtwCFFStb8uC76M=/1200x800/image.jpg",
@@ -54,7 +54,7 @@
     {
       "ID": 5,
       "name": "Khách Sạn Riverside Retreat",
-      "address": "202 Đường N, Quận O, TP. Hồ Chí Minh",
+      "address": "202 Đường N, Quận O, Sài Gòn",
       "starLevel": 3,
       "description": "Khách sạn giá rẻ nằm bên dòng sông Hương, thuận tiện cho du lịch.",
       "imageCover": "https://pix8.agoda.net/hotelImages/126/1269964/1269964_18031218090062718132.jpg?ca=6&ce=1&s=1024x768",

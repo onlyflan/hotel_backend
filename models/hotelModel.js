@@ -26,6 +26,15 @@ const hotelSchema = new mongoose.Schema({
     type: String,
     // required: [true, 'A hotel must have a cover image'],
   },
+  phone: {
+    type: String,
+    validate: {
+      validator: function (v) {
+        return /^\d{10}$/.test(v);
+      },
+      message: 'Phone number {VALUE} is not valid',
+    },
+  },
   images: [String],
 });
 

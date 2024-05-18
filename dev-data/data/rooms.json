@@ -1,83 +1,132 @@
 [
-    {
-      "ID": "R001",
-      "name": "Phòng Deluxe",
-      "type": "Deluxe",
-      "price": 1500000.00,
-      "description": "Phòng Deluxe rộng rãi với view thành phố.",
-      "hotelID": 1
-    },
-    {
-      "ID": "R002",
-      "name": "Phòng Standard",
-      "type": "Standard",
-      "price": 1000000.00,
-      "description": "Phòng tiện nghi với giá cả phải chăng.",
-      "hotelID": 1
-    },
-    {
-      "ID": "R003",
-      "name": "Phòng Executive Suite",
-      "type": "Suite",
-      "price": 3000000.00,
-      "description": "Phòng Suite cao cấp với view biển và tiện nghi sang trọng.",
-      "hotelID": 2
-    },
-    {
-      "ID": "R004",
-      "name": "Phòng Family",
-      "type": "Family",
-      "price": 2000000.00,
-      "description": "Phòng rộng rãi dành cho gia đình, có hai giường đôi.",
-      "hotelID": 2
-    },
-    {
-      "ID": "R005",
-      "name": "Phòng Ocean View",
-      "type": "Deluxe",
-      "price": 2500000.00,
-      "description": "Phòng với tầm nhìn hướng biển tuyệt đẹp, tiện nghi hiện đại.",
-      "hotelID": 3
-    },
-    {
-      "ID": "R006",
-      "name": "Phòng Mountain Retreat",
-      "type": "Suite",
-      "price": 1800000.00,
-      "description": "Phòng Suite với view núi non và không gian yên tĩnh.",
-      "hotelID": 4
-    },
-    {
-      "ID": "R007",
-      "name": "Phòng Economy",
-      "type": "Economy",
-      "price": 800000.00,
-      "description": "Phòng giá rẻ với các tiện nghi cơ bản.",
-      "hotelID": 5
-    },
-    {
-      "ID": "R008",
-      "name": "Phòng City View",
-      "type": "Standard",
-      "price": 1200000.00,
-      "description": "Phòng có view thành phố, tiện nghi hiện đại.",
-      "hotelID": 6
-    },
-    {
-      "ID": "R009",
-      "name": "Phòng Sky Suite",
-      "type": "Suite",
-      "price": 3500000.00,
-      "description": "Phòng Suite cao cấp với view toàn cảnh thành phố từ trên cao.",
-      "hotelID": 7
-    },
-    {
-      "ID": "R010",
-      "name": "Phòng Garden Deluxe",
-      "type": "Deluxe",
-      "price": 1700000.00,
-      "description": "Phòng Deluxe với tầm nhìn khu vườn xanh mát.",
-      "hotelID": 8
-    }
+  {
+    "hotel": "663ceede534e4a0061669ac1",
+    "name": "Phòng Deluxe",
+    "type": "Deluxe",
+    "price": 1500000,
+    "description": "Phòng Deluxe rộng rãi với view thành phố.",
+    "imageCover": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/393703864.jpg?k=4b9bf79fe5d434e8ed15191b8d372c9cfb39c109ba4d211a94c3913018167227&o=&hp=1",
+    "images": [
+      "https://dyf.vn/wp-content/uploads/2021/01/tai-sao-thiet-ke-phong-ngu-khach-san-quan-trong-nhat.jpg",
+      "https://dyf.vn/wp-content/uploads/2021/11/thiet-ke-noi-that-phong-khach-san-hien-dai.jpg",
+      "https://anviethouse.vn/wp-content/uploads/2021/12/Thiet-ke-phong-khach-san-4-sao-1-1.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac5",
+    "name": "Phòng Standard",
+    "type": "Standard",
+    "price": 1000000,
+    "description": "Phòng tiện nghi với giá cả phải chăng.",
+    "imageCover": "https://noithattrevietnam.com/uploaded/2019/10/1-noi-that-phong-ngu-khach-san-3-sao.jpg",
+    "images": [
+      "https://kientrucnamcuong.com/admin/webroot/upload/image/images/khach-san-toa-nha/KSTCD-015-Cao-Bang/T8-ngu1-thiet-ke-noi-that-khach-san-3.jpg",
+      "https://noithattuanlinh.vn/images/Product/thie-ke-khach-san-dep-9.jpg",
+      "https://decoxdesign.com/upload/images/hotel-callista-3551m2-phong-ngu-07-decox-design.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669aca",
+    "name": "Phòng Executive Suite",
+    "type": "Suite",
+    "price": 3000000,
+    "description": "Phòng Suite cao cấp với view biển và tiện nghi sang trọng.",
+    "imageCover": "https://khachsandep.vn/storage/files/Du-an/Kha%CC%81ch%20sa%CC%A3n%20anh%20Thu%CC%9Bo%CC%9B%CC%89ng/PHONGVIP1.jpg",
+    "images": [
+      "https://acihome.vn/uploads/15/mau-thiet-ke-noi-that-phong-2-giuong-don-ben-trong-khach-san-3-4-5-sao-2.JPG",
+      "https://arcreal.com.vn/wp-content/uploads/2020/03/thiet-ke-phong-khach-san-dep-nhat.png",
+      "https://webhotel.vn/files/images/421.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac8",
+    "name": "Phòng Family",
+    "type": "Family",
+    "price": 2000000,
+    "description": "Phòng rộng rãi dành cho gia đình, có hai giường đôi.",
+    "imageCover": "https://webhotel.vn/files/images/421.jpg",
+    "images": [
+      "https://anviethouse.vn/wp-content/uploads/2021/12/Thiet-ke-phong-deluxe-khach-san-1-2.jpg",
+      "https://katahome.com/wp-content/uploads/2018/10/thiet-ke-noi-that-phong-ngu-khach-san-5-sao-chuan-khong-can-chinh-2.jpg",
+      "https://poliva.vn/wp-content/uploads/2019/10/phong-ngu-khach-san-dep-nhat-the-gioi-1.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac4",
+    "name": "Phòng Ocean View",
+    "type": "Deluxe",
+    "price": 2500000,
+    "description": "Phòng với tầm nhìn hướng biển tuyệt đẹp, tiện nghi hiện đại.",
+    "imageCover": "https://ik.imagekit.io/tvlk/blog/2022/11/khach-san-dep-o-da-lat-2.jpg?tr=dpr-2,w-675",
+    "images": [
+      "https://studiochupanhdep.com/Upload/Images/Album/anh-noi-that-khach-san-dep-01.jpg",
+      "https://noithattrevietnam.com/temp/-uploaded-2019-10-phong-khach-san-aqua-sun_2-thiet-ke-phong-ngu-khach-san_cr_600x450.jpg",
+      "https://studiochupanhdep.com/Upload/Images/Album/anh-noi-that-khach-san-dep-01.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac2",
+    "name": "Phòng Mountain Retreat",
+    "type": "Suite",
+    "price": 1800000,
+    "description": "Phòng Suite với view núi non và không gian yên tĩnh.",
+    "imageCover": "https://resize.sudospaces.com/phedecor-com/2023/07/w600/noi-that-khach-san-32.jpg.webp",
+    "images": [
+      "https://thietkevanphong.pro/wp-content/uploads/2021/10/phong-khach-san-dep-BIET-THU-NGHI-DUONG-THANH-HOA.jpg",
+      "https://thietkevanphong.pro/wp-content/uploads/2021/10/phong-khach-san-dep-BIET-THU-NGHI-DUONG-THANH-HOA.jpg",
+      "https://bluejaypms.com/Uploads/images/chup-anh-khach-san-1.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac6",
+    "name": "Phòng Economy",
+    "type": "Economy",
+    "price": 800000,
+    "description": "Phòng giá rẻ với các tiện nghi cơ bản.",
+    "imageCover": "https://bluejaypms.com/Uploads/images/chup-anh-khach-san-1.jpg",
+    "images": [
+      "https://tiki.vn/blog/wp-content/uploads/2022/12/khach-san-da-lat.jpg",
+      "https://noithatcattuong.vn/wp-content/uploads/2020/02/thiet-ke-phong-khach-san-dep-14.jpg",
+      "https://lockernlock.vn/wp-content/uploads/2023/04/Thiet-ke-chua-co-ten-23-3.png.webp"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac3",
+    "name": "Phòng City View",
+    "type": "Standard",
+    "price": 1200000,
+    "description": "Phòng có view thành phố, tiện nghi hiện đại.",
+    "imageCover": "https://thietkevanphong.pro/wp-content/uploads/2021/10/phong-khach-san-dep-ha-nam-1.jpg",
+    "images": [
+      "https://noithattugia.com/wp-content/uploads/2022/08/Dam-bao-tham-my-va-cong-nang-e1676995234498.jpg",
+      "https://bizweb.dktcdn.net/100/407/310/products/thi-cong-noi-that-homestay-khach-san-toi-uu-chi-phi.jpg?v=1667034492867",
+      "https://vatlieutrangtrivn.com/wp-content/uploads/2018/10/cach-thi-cong-da-xuyen-sang-trong-phong-ngu.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac9",
+    "name": "Phòng Sky Suite",
+    "type": "Suite",
+    "price": 3500000,
+    "description": "Phòng Suite cao cấp với view toàn cảnh thành phố từ trên cao.",
+    "imageCover": "https://bloganchoi.com/wp-content/uploads/2022/06/khach-san-1.jpg",
+    "images": [
+      "https://noithatecovina.vn/img/thiet-ke-thi-cong-noi-that-phong-nghi-khach-san-don-gian-sang-trong(1).jpg",
+      "https://dyf.vn/wp-content/uploads/2021/01/su-dung-den-trang-tri.jpg",
+      "https://decoxdesign.com/upload/images/hotel-chelidon-1425m2-phong-ngu-06-decox-design.jpg"
+    ] 
+  },
+  {
+    "hotel": "663ceede534e4a0061669ac7",
+    "name": "Phòng Garden Deluxe",
+    "type": "Deluxe",
+    "price": 1700000,
+    "description": "Phòng Deluxe với tầm nhìn khu vườn xanh mát.",
+    "imageCover": "https://anviethouse.vn/wp-content/uploads/2021/12/Thiet-ke-phong-ngu-khach-san-sang-trong-2-2.jpg",
+    "images": [
+      "https://www.vietfuntravel.com.vn/image/data/Hinh-Sai-Gon/900.top-khach-san-co-view-dep-xuat-sac-o-sai-gon/Top-khach-san-co-view-dep-o-sai-gon-phan-theo-tung-quan-h1.png",
+      "https://media.vneconomy.vn/w900/images/upload/2021/09/04/34884794003-79b7caebee-k-1519666489.jpg",
+      "https://noithattuanlinh.vn/images/Product/thie-ke-khach-san-dep-2.jpg"
+    ] 
+  }
 ]
-

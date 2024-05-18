@@ -1,0 +1,10 @@
+{
+  "name": "Premier Suite",
+  "price": 2000000,
+  "dateStart": "2024-06-01",
+  "dateEnd": "2024-06-05",
+  "description": "This is a sample package description.",
+  "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  "imageCover": "sample-image.jpg",
+  "note": "This is a sample note."
+}
