@@ -1,15 +1,17 @@
 const mongoose = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
-const Service = require('./serviceModel');
+// const Service = require('./serviceModel');
+const Hotel = require('./hotelModel');
+const Room = require('./roomModel');
 
 const bookingSchema = new mongoose.Schema({
   bookingDate: {
     type: Date,
-    required: [true, 'A booking must have a booking date'],
+    // required: [true, 'A booking must have a booking date'],
   },
   selloff: {
     type: Number,
-    required: [true, 'A booking must have a selloff'],
+    // required: [true, 'A booking must have a selloff'],
   },
   note: {
     type: String,
@@ -18,7 +20,7 @@ const bookingSchema = new mongoose.Schema({
   clientID: {
     type: mongoose.Schema.ObjectId,
     ref: 'Client',
-    required: [true, 'A booking must have a client'],
+    // required: [true, 'A booking must have a client'],
   },
   bookingCode: {
     type: String,
@@ -58,13 +60,19 @@ const bookingSchema = new mongoose.Schema({
     required: [true, 'A booking must have a room'],
   },
   roomID: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Room',
     required: [true, 'A booking must have a room ID'],
   },
-  services: {
-    type: [String],
-    required: [true, 'A booking must have services'],
-  },
+  services: [
+    {
+      name: String,
+      _id: mongoose.Schema.ObjectId,
+      price: Number,
+      unity: String,
+      description: String,
+    },
+  ],
   totalPrice: {
     type: Number,
     required: [true, 'A booking must have a total price'],
