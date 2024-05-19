@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
+const Service = require('./serviceModel');
 
 const bookingSchema = new mongoose.Schema({
   bookingDate: {
@@ -70,8 +71,7 @@ const bookingSchema = new mongoose.Schema({
   },
 });
 
-// Add pre-save middleware to generate bookingCode
-bookingSchema.pre('save', function (next) {
+bookingSchema.pre('validate', function (next) {
   if (!this.bookingCode) {
     this.bookingCode = uuidv4().slice(0, 6).toUpperCase();
   }
