@@ -1,0 +1,72 @@
+[
+  {
+    "fullName": "Nguyễn Văn Nam",
+    "gender": "Nam",
+    "birthDate": "1990-05-15",
+    "staffCode": "L02",
+    "position": "Nhân viên lễ tân"
+  },
+  {
+    "fullName": "Trần Thị Nhung",
+    "gender": "Nữ",
+    "birthDate": "1988-08-22",
+    "staffCode": "B01",
+    "position": "Nhân viên buồng phòng"
+  },
+  {
+    "fullName": "Lê Văn Đức",
+    "gender": "Nam",
+    "birthDate": "1992-11-30",
+    "staffCode": "K05",
+    "position": "Kế toán"
+  },
+  {
+    "fullName": "Phạm Thị Duyên",
+    "gender": "Nữ",
+    "birthDate": "1985-01-10",
+    "staffCode": "Q23",
+    "position": "Quản lý nhà hàng"
+  },
+  {
+    "fullName": "Đỗ Văn Tuấn",
+    "gender": "Nam",
+    "birthDate": "1993-03-25",
+    "staffCode": "B11",
+    "position": "Nhân viên bảo vệ"
+  },
+  {
+    "fullName": "Ngô Thị Uyên",
+    "gender": "Nữ",
+    "birthDate": "1991-07-14",
+    "staffCode": "N25",
+    "position": "Nhân viên pha chế"
+  },
+  {
+    "fullName": "Dương Văn Giang",
+    "gender": "Nam",
+    "birthDate": "1989-12-05",
+    "staffCode": "Q12",
+    "position": "Quản lý nhân sự"
+  },
+  {
+    "fullName": "Hồ Thị Hương",
+    "gender": "Nữ",
+    "birthDate": "1994-04-18",
+    "staffCode": "N25",
+    "position": "Nhân viên phục vụ"
+  },
+  {
+    "fullName": "Vũ Văn Tuấn",
+    "gender": "Nam",
+    "birthDate": "1987-09-09",
+    "staffCode": "T22",
+    "position": "Trưởng phòng kinh doanh"
+  },
+  {
+    "fullName": "Hoàng Thị Nhung",
+    "gender": "Nữ",
+    "birthDate": "1995-06-21",
+    "staffCode": "Q23",
+    "position": "Quản lý spa"
+  }
+]

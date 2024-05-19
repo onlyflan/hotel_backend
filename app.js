@@ -24,6 +24,7 @@ const billRouter = require('./routes/billRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const packageRouter = require('./routes/packageRoutes');
 const newsRouter = require('./routes/newsRoutes');
+const staffRouter = require('./routes/staffRoutes');
 const home = require('./routes/home');
 
 const app = express();
@@ -123,6 +124,7 @@ app.use('/api/v1/services', serviceRouter);
 app.use('/api/v1/bills', billRouter);
 app.use('/api/v1/bookings', bookingRouter);
 app.use('/api/v1/packages', packageRouter);
+app.use('/api/v1/staffs', staffRouter);
 app.use('/api/v1/news', newsRouter);
 
 app.all('*', (req, res, next) => {
