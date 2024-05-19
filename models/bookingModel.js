@@ -1,13 +1,10 @@
 const mongoose = require('mongoose');
 const { v4: uuidv4 } = require('uuid');
-// const Service = require('./serviceModel');
-const Hotel = require('./hotelModel');
-const Room = require('./roomModel');
-const Package = require('./packageModel');
 
 const bookingSchema = new mongoose.Schema({
   bookingDate: {
     type: Date,
+    default: Date.now(),
     // required: [true, 'A booking must have a booking date'],
   },
   selloff: {
