@@ -2,16 +2,12 @@ const News = require('../models/newsModel');
 
 exports.getAllNews = async (req, res) => {
   try {
-    let query = News.find();
+    const position = parseInt(req.query.position, 10) || 1;
+    const limit = parseInt(req.query.limit, 10) || 1;
 
-    if (req.query.position && req.query.limit) {
-      const position = parseInt(req.query.position, 10);
-      const limit = parseInt(req.query.limit, 10);
-      const skip = (position - 1) * limit;
-      query = query.skip(skip).limit(limit);
-    }
+    const skip = (position - 1) * limit;
 
-    const newss = await query;
+    const newss = await News.find().skip(skip).limit(limit);
 
     res.status(200).json({
       status: 'success',

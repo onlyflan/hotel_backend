@@ -1,25 +1,25 @@
 [
   {
     "name": "SUMMER ESCAPES DEAL",
-    "price": "1,500,000 VND",
+    "price": "1500000",
     "description": "Thành viên tích lũy được ít nhất 4%(562 points)",
     "discountPercentage": 10
   },
   {
     "name": "SUMMER CREDIT PACKAGE",
-    "price": "3,000,000 VND",
+    "price": "3000000",
     "description": "Bữa sáng buffet cho 2 người lớn và 2 trẻ em dưới 5 tuổi.",
     "discountPercentage": 15
   },
   {
     "name": "Spa Pampering Package",
-    "price": "2,000,000 VND",
+    "price": "2000000",
     "description": "Miễn phí 1 liệu pháp chăm sóc toàn thân trong 60 phút tại Legend Healing Spa trị giá 1.100.000++ VNĐ",
     "discountPercentage": 40
   },
   {
     "name": "Premium Suite Package",
-    "price": "2,500,000 VND",
+    "price": "2500000",
     "description": "Gói gia đình bao gồm các hoạt động giải trí thú vị cho cả người lớn và trẻ em.",
     "discountPercentage": 25
   }
