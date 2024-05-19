@@ -3,6 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 // const Service = require('./serviceModel');
 const Hotel = require('./hotelModel');
 const Room = require('./roomModel');
+const Package = require('./packageModel');
 
 const bookingSchema = new mongoose.Schema({
   bookingDate: {
@@ -48,7 +49,8 @@ const bookingSchema = new mongoose.Schema({
     required: [true, 'A booking must have a hotel'],
   },
   packageId: {
-    type: Number,
+    type: mongoose.Schema.ObjectId,
+    ref: 'Package',
     required: [true, 'A booking must have a package ID'],
   },
   price: {
