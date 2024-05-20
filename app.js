@@ -9,6 +9,7 @@ const hpp = require('hpp');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const compression = require('compression');
+const session = require('express-session');
 const cors = require('cors');
 
 const AppError = require('./utils/appError');
@@ -48,9 +49,21 @@ app.use(express.static(`${__dirname}/public`));
 // Set security HTTP headers
 app.use(helmet());
 
+app.use(
+  session({
+    // các cài đặt khác cho session
+    cookie: {
+      secure: true, // cần thiết khi sử dụng SameSite=None
+      sameSite: 'None', // thiết lập SameSite thành None
+    },
+  }),
+);
 console.log(process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev')); // logs HTTP requests details to the console in a nice and readable format
+}
+if (process.env.NODE_ENV === 'production') {
+  app.set('trust proxy', 1); // trust first proxy
 }
 
 const limiter = rateLimit({
