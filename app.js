@@ -50,7 +50,7 @@ app.use(express.static(`${__dirname}/public`));
 app.use(helmet());
 
 console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === 'development') {
+if (process.env.NODE_ENV === 'production') {
   app.use(morgan('dev')); // logs HTTP requests details to the console in a nice and readable format
 }
 
