@@ -38,7 +38,7 @@ app.set('views', path.join(__dirname, './views/pages/Login'));
 // 1) GLOBAL MIDDLEWARES
 app.use(
   cors({
-    origin: 'https://hotel-web-app-six.vercel.app',
+    origin: ['https://hotel-web-app-six.vercel.app', 'http://localhost:3000'],
     credentials: true,
   }),
 );
