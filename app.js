@@ -37,11 +37,10 @@ app.set('views', path.join(__dirname, './views/pages/Login'));
 // 1) GLOBAL MIDDLEWARES
 app.use(
   cors({
-    origin: 'https://hotel-web-app-six.vercel.app/',
+    origin: 'https://hotel-web-app-six.vercel.app',
     credential: true,
   }),
 );
-app.options('*', cors());
 
 // Serving static files
 app.use(express.static(`${__dirname}/public`));
