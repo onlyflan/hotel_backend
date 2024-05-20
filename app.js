@@ -38,7 +38,7 @@ app.set('views', path.join(__dirname, './views/pages/Login'));
 app.use(
   cors({
     origin: 'https://hotel-web-app-six.vercel.app',
-    credential: true,
+    credentials: true,
   }),
 );
 
