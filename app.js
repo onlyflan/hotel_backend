@@ -35,12 +35,12 @@ app.set('view engine', 'pug');
 app.set('views', path.join(__dirname, './views/pages/Login'));
 
 // 1) GLOBAL MIDDLEWARES
-app.use(cors());
-// app.use(
-//   cors({
-//     origin: 'https://hotel-web-app-six.vercel.app/',
-//   }),
-// );
+app.use(
+  cors({
+    origin: 'https://hotel-web-app-six.vercel.app/',
+    credential: true,
+  }),
+);
 app.options('*', cors());
 
 // Serving static files
@@ -50,7 +50,7 @@ app.use(express.static(`${__dirname}/public`));
 app.use(helmet());
 
 console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev')); // logs HTTP requests details to the console in a nice and readable format
 }
 
